@@ -1819,6 +1819,14 @@ input, select, textarea {
 					width: 48px;
 				}
 
+				ul.social li a.fa-kaggle {
+					background-color: #00A3E0;
+				}
+
+				ul.social li a.fa-envelope {
+					background-color: #E0D7C8;
+				}
+
 				ul.social li a.fa-twitter {
 					background-color: #2DAAE4;
 				}
@@ -2140,8 +2148,8 @@ input, select, textarea {
 /* Copyright */
 
 	#copyright {
-		color: #666;
-		font-size: 1em;
+		color: #b6b5b5;
+		font-size: 1.2em;
 		line-height: 1em;
 		list-style: none;
 		padding-left: 0;
