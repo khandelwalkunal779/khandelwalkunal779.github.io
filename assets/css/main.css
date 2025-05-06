@@ -1924,7 +1924,17 @@ input, select, textarea {
 		}
 
 			.box.style1 h3 {
+				margin-bottom: 0.1em;
+			}
+
+			.box.style1 p {
+				margin-top: 0.1em;
+				margin-bottom: 0.1em;
+			}
+
+			.box.style1 p.institute {
 				margin-bottom: 0.5em;
+				font-size: medium;
 			}
 
 		.box.style2 h3 {
@@ -2364,7 +2374,7 @@ input, select, textarea {
 					position: relative;
 					left: 20px;
 					top: 20px;
-					margin: -50px 0 50px -40px;
+					margin: -50px 50px 50px 10px;
 					width: auto;
 				}
 
