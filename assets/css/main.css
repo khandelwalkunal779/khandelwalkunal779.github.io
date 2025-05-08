@@ -198,6 +198,18 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 
+	.subsection-head {
+		font-size: x-large;
+		font-weight: normal;
+		margin-bottom: 0.75em;
+	}
+		@media screen and (max-width: 980px) {
+			.subsection-head {
+				font-size: medium;
+				font-weight: bold;
+			}
+		}
+
 	header {
 		margin: 0 0 3em 0;
 	}
@@ -1776,6 +1788,13 @@ input, select, textarea {
 			padding-left: 0;
 		}
 
+			ul.social li.skill-item {
+				background: #fff;
+				box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+				text-align: center;
+				padding: 0.5em 1em 0.5em 1em;
+			}
+
 			ul.social li a {
 				-moz-transition: top .2s ease-in-out;
 				-webkit-transition: top .2s ease-in-out;
@@ -1948,6 +1967,13 @@ input, select, textarea {
 			margin: -4em 0 4em -4em;
 			width: auto;
 		}
+
+	.skill-item {
+		background: #fff;
+		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+		text-align: center;
+		padding: 0.5em 1em 0.5em 1em;
+	}
 
 /* Icons */
 
@@ -2374,7 +2400,7 @@ input, select, textarea {
 					position: relative;
 					left: 20px;
 					top: 20px;
-					margin: -50px 50px 50px 10px;
+					margin: 0px 50px 50px 0px;
 					width: auto;
 				}
 
