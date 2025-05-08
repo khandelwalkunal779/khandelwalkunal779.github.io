@@ -1,6 +1,6 @@
 # My Personal Portfolio Website
 
-This is my personal resume portfolio website, built using a modified version of a template by [HTML5 UP](https://html5up.net).
+This is my personal resume portfolio website, with details regarding my skillset, education, projects and contact.
 
 ## Template Attribution
 
