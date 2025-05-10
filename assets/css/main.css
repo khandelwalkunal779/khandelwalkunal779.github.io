@@ -2032,11 +2032,34 @@ input, select, textarea {
 				margin-top: 0.1em;
 				margin-bottom: 0.1em;
 			}
+
+			.box.style3 p.institute {
+				margin-bottom: 0.5em;
+				font-size: medium;
+			}
 			
 			.box.style3 .image {
 				width: 33.33%;
 				height: auto;
 				object-fit: cover;
+			}
+
+			.box.style3 .image.small-logo {
+				width: 15%;
+			}
+
+			.box.style3 .text-content.small-logo {
+				width: 85%;
+			}
+
+			@media screen and (max-width: 736px) {
+				.box.style3 .image.small-logo {
+					width: 25%;
+				}
+	
+				.box.style3 .text-content.small-logo {
+					width: 75%;
+				}	
 			}
 
 	.skill-item {
