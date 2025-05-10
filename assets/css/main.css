@@ -203,6 +203,12 @@ input, select, textarea {
 		font-weight: normal;
 		margin-bottom: 0.75em;
 	}
+
+		.subsection-head h4 {
+			margin-top: 2em;
+			font-weight: normal;
+		}
+
 		@media screen and (max-width: 980px) {
 			.subsection-head {
 				font-size: medium;
@@ -1997,13 +2003,41 @@ input, select, textarea {
 			margin-bottom: 0.25em;
 		}
 
-		.box.style2 .image {
-			position: relative;
-			left: 2em;
-			top: 2em;
-			margin: -4em 0 4em -4em;
-			width: auto;
+			.box.style2 .image {
+				position: relative;
+				left: 2em;
+				top: 2em;
+				margin: -4em 0 4em -4em;
+				width: auto;
+			}
+
+		.box.style3 {
+			display: flex;
+			gap: 1rem;
+			padding: 3em 2em 3.5em 2em;
+			text-align: left;
 		}
+			
+			.box.style3 .text-content {
+				width: 66.67%;
+				display: flex;
+				flex-direction: column; /* Stack paragraphs vertically */
+			}
+			
+			.box.style3 .text-content h3 {
+				margin-bottom: 0.1em;
+			}
+
+			.box.style3 .text-content p {
+				margin-top: 0.1em;
+				margin-bottom: 0.1em;
+			}
+			
+			.box.style3 .image {
+				width: 33.33%;
+				height: auto;
+				object-fit: cover;
+			}
 
 	.skill-item {
 		background: #fff;
@@ -2453,6 +2487,12 @@ input, select, textarea {
 					margin-right: auto !important;
 				}
 
+				.box.style3 {
+					max-width: 32em;
+					margin-left: auto !important;
+					margin-right: auto !important;
+				}
+
 		/* Wrappers */
 
 			.wrapper {
@@ -2472,6 +2512,7 @@ input, select, textarea {
 					height: inherit;
 					line-height: inherit;
 					border-radius: 0;
+					font-size: smaller;
 				}
 
 					#nav a:hover {
